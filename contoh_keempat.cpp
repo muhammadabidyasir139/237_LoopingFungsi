@@ -19,13 +19,13 @@ void input() {
 }
 
 int totalHarga() {
-    return (nAdidas * hAdidas) + (nPuma + hPuma) + (nNB * hNB) + (nNike * hNike);
+    return (nAdidas * hAdidas) + (nPuma + hPuma) + (nNB * hNB) + (nNike * hNike) + (nCompass * hCompass);
 }
 
 void display() {
     cout << "Jumlah Puma = " << nPuma << endl;
     cout << "Jumlah Adidas = " << nAdidas << endl;
-    cout << "Total harga = Rp. " << totalHarga << endl;
+    cout << "Total harga = Rp. " << totalHarga() << endl;
 }
 
 int main() {
